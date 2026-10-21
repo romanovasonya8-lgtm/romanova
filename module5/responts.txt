@@ -1,0 +1,12 @@
+Успешно 200:
+http://127.0.0.1:8000/api/notes- 200 OK
+http://127.0.0.1:8000/api/notes?id_user=2 - 200 OK
+
+Ошибка 400:
+http://127.0.0.1:8000/api/notes?id_user=abc - 400 
+
+Пустой массив:
+http://127.0.0.1:8000/api/notes?id_user=999999
+
+Ошибка 500:
+http://127.0.0.1:8000/api/notes?error=1
